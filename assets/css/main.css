@@ -158,20 +158,34 @@ a:after {
 	color: white;
 }
 
-#quotewrap {
+#contribwrap {
     background-color: #34495e;
     padding-top: 60px;
+    padding-bottom: 60px;
     color: white;
 }
 
-#quotewrap h1,
-#quotewrap h3 {
+#contribwrap h1,
+#contribwrap h3 {
     color: white;
 }
 
-#quotewrap p {
+#contribwrap p {
     line-height: 20px;
     color: white
+}
+
+#contribwrap .btn-lg {
+   font-size:28px;
+   border-color:#eeeeee;
+   padding:15px;
+   background-color:transparent;
+   color:#ffffff;
+}
+
+#contribwrap .btn-lg:hover {
+   background-color:#eeeeee;
+   color:#777777;
 }
 
 #footerwrap {
