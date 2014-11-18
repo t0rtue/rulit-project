@@ -75,7 +75,7 @@
                 <div class="col-lg-4">
                     <!-- <img src="assets/img/intro01.png" alt=""> -->
                     <h3>Un outil de création de jeux</h3>
-                    <p>Rulit apporte le cadre, les concepts et mécanismes utilisés dans un grand nombre de jeux. Il permet de les combiner et les configurer. Au final, pour créer un jeu, il suffit de le décrire, de la même façon que l'on explique les règles à un ami.</p>
+                    <p>Rulit apporte le cadre, les concepts et mécanismes utilisés dans un grand nombre de jeux. Il permet de les combiner et les configurer. Finalement, pour créer un jeu, il suffit de le décrire, de la même façon que l'on explique les règles à un ami.</p>
                 </div>
                 <div class="col-lg-4">
                     <!-- <img src="assets/img/intro02.png" alt=""> -->
@@ -85,7 +85,7 @@
                 <div class="col-lg-4">
                     <!-- <img src="assets/img/intro03.png" alt=""> -->
                     <h3>Pour tout le monde</h3>
-                    <p>Aucune compétence requise, pas besoins de savoir coder ou faire de beaux graphismes. Il  suffit d'un début d'idée et d'un peu de motivation.</p>
+                    <p>Aucune compétence requise, pas besoin de savoir coder ou faire de beaux graphismes. Il  suffit d'un début d'idée et d'un peu de motivation.</p>
                 </div>
             </div>
             <br>
@@ -100,9 +100,7 @@
                 <h1 class="centered">Qu'est ce que c'est?</h1>
                 <br>
                 <br>
-                <div class="col-lg-6 centered">
-                    <img class="centered" src="assets/img/hex_graph_map.png" width="100%" height="100%" alt="">
-                </div>
+
                 
                 <div class="col-lg-6">
                 <!-- ACCORDION -->
@@ -115,29 +113,45 @@
                             </div><!-- /accordion-heading -->
                             <div id="collapseIdea" class="accordion-body collapse in">
                                 <div class="accordion-inner">
-                                    <p>"À son tour, et une fois seulement, le joueur peut poser un marchand sur une case libre à côté d'une ville lui appartenant, il paie alors le prix correspondant."</p>
+                                    <p>
+                                        Tous les jeux ont des règles.<br>
+                                        Ces règles décrivent le jeu et permettent, une fois assimilées, de jouer.<br>
+                                        Les règles de différents jeux ont des caractéristiques communes : organisation, vocabulaire utilisé, concepts, mécanismes.<br>
+                                        Par exemple, les échecs et les dames sont des jeux où chaque joueur déplace une pièce à son tour et où l'on peut capturer une pièce adverse. Ces jeux sont différent dans la façon dont sont déplacées les pièces, dont s'effectue la prise, mais aussi par le placement de départ ainsi que les conditions de victoire.<br>
+                                    </p>
+                                    <p>
+                                        Le principe de rulit est de généraliser les caractéristiques communes des règles, comme le déplacement d'une pièce, et de les rendre configurables : destinations autorisées, conditions de déplacement.
+                                        <br>
+                                        On peut ainsi décrire "n'importe quel" jeu, en combinant et en paramétrant les différents mécanismes.<br>
+                                        Rulit permet alors de mettre en oeuvre les règles définies.
+                                    </p>
+                                    <p>
+                                        L'objectif est que rulit puisse comprendre et appliquer un ensemble de règles de la même façon qu'un être humain peut jouer à un jeu après avoir lu le livre des règles.
+                                    </p>
+
+                                    <p>
+                                        Alors oui, c'est un peu ambitieux, mais l'idée c'est d'y aller par étape en mettant des limitations sur les types de jeux qui vont pouvoir être créés.
+                                    </p>
+<!--                                     <p>
+                                        "À son tour, et une fois seulement, le joueur peut poser un marchand sur une case libre à côté d'une ville lui appartenant, il paie alors le prix correspondant."
+                                    </p>
                                     <p>Cette règle, dans son contexte, est compréhensible par un être humain qui peut alors directement l'appliquer.<br/> Le but : qu'il en soit de même pour Rulit!</p>
+-->
                                 </div><!-- /accordion-inner -->
                             </div><!-- /collapse -->
                         </div><!-- /accordion-group -->
                         <br>
 
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseWhat">
-                                Pour faire quoi ?
-                                </a>
-                            </div><!-- /accordion-heading -->
-                            <div id="collapseWhat" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <p>
-                                        La création d'un (bon) jeu est un processus itératif, il faut l'essayer, le modifier, tout est une question d'équilibre. Rulit a pour but de faciliter ce processus afin, par exemple, de réaliser des prototypes de jeux (vidéo ou plateau), faire des expériences de game design, communiquer autour d'une idée et voir même faire un jeu complet!
-                                    </p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
-        
+                    </div>
+                </div>
+
+                <div class="col-lg-6 centered">
+                    <img class="centered" src="assets/img/hex_graph_map.png" width="100%" height="100%" alt="">
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="accordion ac" id="accordion2">
+
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseType">
@@ -165,7 +179,24 @@
                             </div><!-- /collapse -->
                         </div><!-- /accordion-group -->
                         <br>
-        
+
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseWhat">
+                                Pour faire quoi ?
+                                </a>
+                            </div><!-- /accordion-heading -->
+                            <div id="collapseWhat" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <p>
+                                        La création d'un (bon) jeu est un processus itératif, il faut l'essayer, le modifier, tout est une question d'équilibre.<br>
+                                        Rulit a pour but de faciliter ce processus afin, par exemple, de réaliser des prototypes de jeux (vidéo ou plateau), faire des expériences de game design, communiquer autour d'une idée, proposer des variantes de jeux existant et bien sûr, créer un jeu complet!
+                                    </p>
+                                </div><!-- /accordion-inner -->
+                            </div><!-- /collapse -->
+                        </div><!-- /accordion-group -->
+                        <br>
+
                          <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseHow">
@@ -185,6 +216,12 @@
                                           <dd>Différentes notions utilisables dans les règles: voisinage, chemin, intersection, bord, groupe de tuiles ou de pions (connection, pile), alignement</dd>
                                         </dl>
                                     </p>
+                                    <p>
+                                        Il est intéressant de constater à quel point certains jeux de plateau arrivent, à partir d'éléments et de principes basiques, à construire des mécanismes évolués et complexes : système de marché permettant aux joueurs d'acheter et de vendre des ressources à un prix qui dépend de l'offre et de la demande (Cuba), construction d'une ville avec influence des quartiers les uns sur les autres et gestion des coût, revenu et attractivité (Suburbia), flotte de vaisseaux, amélioration de leurs caractéristiques et évolution de la recherche (Eclipse), ...
+                                    </p>
+                                    <p>
+                                        On remarque aussi qu'il est possible d'inventer un grand nombre de jeux et de variantes à partir d'un ensemble fini d'éléments et de mécanismes, pas forcément nombreux ou complexes. Pour s'en convaincre, voir le <a href="http://www.cameronius.com/games/shibumi/">shibumi</a> challenge.
+                                    </p>
                                 </div><!-- /accordion-inner -->
                             </div><!-- /collapse -->
                         </div><!-- /accordion-group -->
@@ -193,6 +230,9 @@
                         <br>            
                     </div><!-- Accordion -->
                 </div>
+
+
+
             </div>
         </div><!--/ .container -->
     </div><!--/ #features -->
@@ -228,187 +268,139 @@
     <div id="features">
         <div class="container">
             <div class="row">
-                <h1 class="centered">Comment ça marche?</h1>
-                <p>
+                <!-- <h1 class="centered">Comment ça marche?</h1> -->
+                <h1 class="centered">La recette d'un jeu</h1>
+                <p class="centered">
                     Les différents éléments présentés sont en cours d'implémentation dans le proto.
-                    Les illustrations sont des "concepts art" réalisés il y a quelque temps, elles ne reflètent pas du tout l'état du proto mais il fallait que je mette un peu de couleur sur cette page.
                 </p>
                 <br>
                 <br>
                 
-                <div class="col-lg-6">
+                <div class="col-lg-12">
 
-                    <h3>Le livre de règles</h3>
+                    <h2>Le livre de règles</h2>
                     <br>
 
-                <!-- ACCORDION -->
-                    <div class="accordion ac" id="accordion2">
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseGrid">
-                                Espace de jeu
-                                </a>
-                            </div><!-- /accordion-heading -->
-                            <div id="collapseGrid" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-                                <p>
-                                    Définition du type de grille (carré, hexa) et de ses dimensions. La grille peut être utilisée directement comme plateau ou bien comme repère pour placer les tuiles constituant le plateau.
-                                    <br>
-                                    Plusieurs espace de jeu peuvent être définis pour représenter le plateau principal, les plateaux communs (ex: marché) ainsi que les différents plateaux spécifiques à chaque joueur (ex: inventaire, évolution).
-                                </p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
-        
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTokens">
-                                Tokens
-                                </a>
-                            </div>
-                            <div id="collapseTokens" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-                                <p>
-                                    Tous les éléments manipulés dans le jeu: tuiles, pions, marqueurs, compteurs, ...
-                                    Un token peut avoir des attributs définis par l'utilisateur (ex: population, attaque, défense).
-                                    Un token n'a pas de comportement, ce sont les actions qui vont permettre de les manipuler.
-                                    Par exemple: un pion ne se déplace pas, il est déplacé. Et la façon dont il est déplacé peut dépendre du moment et des conditions.
-                                </p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
+                    <div class="row vertical-align">
+                        <div class="col-lg-6">
+                            <h3>Espace de jeu</h3>
+                            <p>
+                                Choisir le type de grille (carré, hexa) et ses dimensions.<br>
+                                La grille peut être utilisée directement comme plateau ou bien comme repère pour placer les tuiles constituant le plateau.<br>
+                                Plusieurs espace de jeu peuvent être définis pour représenter, par exemple, le plateau principal, les plateaux communs (ex: marché) ainsi que les différents plateaux spécifiques à chaque joueur (ex: inventaire, évolution).
+                            </p>
+                        </div>
+                        <div class="col-lg-6 centered">
+                            <img class="centered" src="assets/img/grids.png" alt="">
+                        </div>
+                    </div>
+                    <br>
 
+                    <div class="row vertical-align">
+                        <div class="col-lg-6 centered">
+                            <img class="centered" src="assets/img/tokens.png" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>Tokens</h3>
+                            <p>
+                                Définir tous les éléments manipulés dans le jeu: tuiles, pions, marqueurs, compteurs, ...<br>
+                                Un token peut avoir des attributs définis par l'utilisateur (ex: population, attaque, défense).
+                                Un token n'a pas de comportement, ce sont les actions qui vont permettre de les manipuler : un pion ne se déplace pas, il est déplacé. La façon dont un token est manipulé peut dépendre de ses attributs ou de diverses conditions.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
 
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseActions">
-                                Actions
-                                </a>
-                            </div>
-                            <div id="collapseActions" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-                                <p>
-                                    Description et configuration des actions qui vont être réalisées dans le jeu: manipulation des tokens (poser, déplacer), prise et don de points ou de ressources, interaction.
-                                    Une action s'applique sur un type de token précis et peut utiliser les attributs du token comme paramètres.
-                                    Par exemple : "Déplacer un pion sur un intersection libre à une distance maximale égale à la vitesse du pion".
-                                </p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
+                    <div class="row vertical-align">
+                        <div class="col-lg-6">
+                            <h3>Actions</h3>
+                            <p>
+                                Décrire et configurer les actions qui vont être réalisées dans le jeu: manipulation des tokens (poser, déplacer), prise et distribution de points ou de ressources, interaction.<br>
+                                Une action s'applique sur un type de token précis et peut utiliser les attributs du token comme paramètres.
+                                Par exemple : "Déplacer un pion sur un intersection libre à une distance maximale égale à la vitesse du pion".
+                                <br>
+                                Les actions sont configurable en utilisant les différents concepts fournis, par exemple le voisinage du token sélectionné.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 centered">
+                            <img class="centered" src="assets/img/pawn_attacks.png" height="150" width="150" alt="">
+                            <img class="centered" src="assets/img/pawn_move.png" height="150" width="150" alt="">
+                            <img class="centered" src="assets/img/territory_move.png" height="150" width="150" alt="">
+                        </div>
+                    </div>
+                    <br>
 
-                         <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTurn">
-                                Déroulement d'un tour de jeu
-                                </a>
-                            </div>
-                            <div id="collapseTurn" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-                                <p>
-                                    Le tour d'un joueur est découpé en phases. Chaque phase comprend un ensemble d'actions et des conditions.
-                                    Par exemple, "Doit faire une action, et une seule, parmis les actions suivantes" ou "Peut faire toutes les actions autant de fois qu'il veut".
-                                </p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
-                        
-                         <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseGoal">
-                                But du jeu
-                                </a>
-                            </div>
-                            <div id="collapseGoal" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-                                <p>
-                                    Les conditions de fin de jeu (nombre de tours, situation du plateau, valeur d'un attribut) ainsi que les conditions de victoire.
-                                </p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
+                    <div class="row vertical-align">
+                        <div class="col-lg-6 centered">
+                            <img class="centered" src="assets/img/turn.png" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>Déroulement d'un tour</h3>
+                            <p>
+                                Découper le tour d'un joueur en phases. Chaque phase comprend un ensemble d'actions et des conditions.
+                                Par exemple, "Doit faire une action, et une seule, parmis les actions suivantes" ou "Peut faire toutes les actions autant de fois qu'il veut".
+                            </p>
+                        </div>
+                    </div>
+                    <br>
 
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSetup">
-                                Mise en place
-                                </a>
-                            </div>
-                            <div id="collapseSetup" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-                                <p>
-                                    La configuration en début de partie: mise en place du plateau, distribution des tokens.
-                                    La mise en place peut être paramétrable par le joueur en fonction des options définies (plateau, difficulté, variantes)
-                                </p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
+                    <div class="row vertical-align">
+                        <div class="col-lg-6">
+                            <h3>But du jeu</h3>
+                            <p>
+                                Fixer les conditions de fin de jeu, par exemple, un certain nombre de tours à effectuer, ainsi que les conditions de victoire : situation du plateau, valeur d'un attribut.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 centered">
+                            <img class="centered" src="assets/img/victory_conditions.png" alt="">
+                        </div>
+                    </div>
+                    <br>
 
-                         <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseVariantes">
-                                Variantes et réglages
-                                </a>
-                            </div>
-                            <div id="collapseVariantes" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-                                <p>
-                                    Modification des règles de base (conditions de victoire, actions, placement initial), différences selon le contexte (nombre de joueurs) et options (difficulté, challenges) qui peuvent être choisies au début d'une partie.
-                                </p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
+                    <div class="row vertical-align">
+                        <div class="col-lg-6 centered">
+                            <img class="centered" src="assets/img/basic_board.png" height="100" width="100" alt="">
+                            <img class="centered" src="assets/img/map.png" height="100" width="100" alt="">
+                            <img class="centered" src="assets/img/room.png" height="100" width="100" alt="">
+                            <img class="centered" src="assets/img/territory_and_continent.png" height="100" width="100" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>Début de partie</h3>
+                            <p>
+                                Mettre en place les éléments nécessaires avant de commencer une partie : configuration du plateau, distribution des tokens.<br>
+                                Cette configuration initiale peut être paramétrable par le joueur en fonction des options définies (plateau, difficulté, variantes).
+                            </p>
+                        </div>
+                    </div>
+                    <br>
 
-                         <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTheme">
-                                Theming
-                                </a>
-                            </div>
-                            <div id="collapseTheme" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-                                <p>
-                                    Un peu différent des autres points, jusque là le but est de généraliser/abstraire le jeu pour ne conserver que les mécaniques alors que le theming permet de contextualiser le jeu.<br>Disposition des éléments (plateau, fenêtre), style graphique, nom des tokens, contexte du jeu, histoire, ...
-                                </p>
-                                </div><!-- /accordion-inner -->
-                            </div><!-- /collapse -->
-                        </div><!-- /accordion-group -->
-                        <br>
+                    <div class="row vertical-align">
+                        <div class="col-lg-6">
+                            <h3>Variantes et réglages</h3>
+                            <p>
+                                Proposer des modifications des règles de base (conditions de victoire, actions, placement initial), des alternatives selon le contexte (nombre de joueurs) et les options qui peuvent être choisies au début d'une partie comme la difficulté ou des challenges.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 centered">
+                            <img class="centered" src="assets/img/variation.png" alt="">
+                        </div>
+                    </div>
+                    <br>
 
-                    </div><!-- Accordion -->
+                    <div class="row vertical-align">
+                        <div class="col-lg-6 centered">
+                            <img class="centered img-circle" src="assets/img/tile_and_topo.png" height="250" width="250" alt="">
+                            <img class="centered img-circle" src="assets/img/topo_w_shadow_2.png" height="250" width="250" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>Univers</h3>
+                            <p>
+                                Contextualiser le jeu, lui donner un univers et une histoire : style graphique, introduction, nom des tokens, disposition des éléments (plateau, fenêtre).<br>
+                            </p>
+                        </div>
+                    </div>
+                    <br>
 
-                </div>
-
-                <div class="col-lg-6 centered">
-                    <!-- <img class="centered img-circle" src="assets/img/hexa_grid.png"  height="200" width="200" alt=""> -->
-                    <img class="centered img-circle" src="assets/img/grid.png"  height="200" width="200" alt="">
-                    <img class="centered" src="assets/img/graph.png" height="200" width="200" alt="">
-                    <br>
-                    <br>
-                    <img class="centered" src="assets/img/basic_board.png" height="100" width="100" alt="">
-                    <img class="centered" src="assets/img/map.png" height="100" width="100" alt="">
-                    <img class="centered" src="assets/img/room.png" height="100" width="100" alt="">
-                    <img class="centered" src="assets/img/territory_and_continent.png" height="100" width="100" alt="">
-                    <br>
-                    <br>
-                    <img class="centered" src="assets/img/pawn_attacks.png" height="200" width="200" alt="">
-                    <img class="centered" src="assets/img/pawn_move.png" height="200" width="200" alt="">
-                    <br>
-                    <br>
-                    <img class="centered" src="assets/img/territory_move.png" height="200" width="200" alt="">
-                    <br>
-                    <br>
-                    <img class="centered" src="assets/img/topo2.png" height="300" width="350" alt="">
-                    <br>
-                    <br>
-                    <img class="centered img-circle" src="assets/img/tile_and_topo.png" height="250" width="250" alt="">
-                    <img class="centered img-circle" src="assets/img/topo_w_shadow_2.png" height="250" width="250" alt="">
                 </div>
 
             </div>
@@ -419,23 +411,24 @@
         
 
         <div class="container">
-            <div class="row">
-                <div class="col-lg-7 centered">
-                     <img class="centered" src="assets/img/rulit_screen2.png"  height="400" width="600" alt="">
-                </div>
+            <div class="row  vertical-align">
                 <div class="col-lg-5">
-                    <h3>Le jeu</h3>
+                    <h2>Le jeu</h2>
  
                     <p>
-                        L'écran de jeu est une interface générique quelque soit le jeu en cours de création. On y retrouve les différents éléments utiles au déroulement d'une partie (gestion des tours, information sur le joueur, actions possibles, élément sélectionné).
+                        L'écran de jeu est une interface générique quelque soit le jeu en cours de création. On y retrouve les différents éléments utiles au déroulement d'une partie : gestion des tours, information sur le joueur, actions possibles, élément sélectionné.
                     </p>
                     <p>
-                        Cette partie est directement mis à jour en fonction du livre de règle: ajoutez un type de token et il devient disponible dans le jeu, ajoutez une nouvelle action ou changez le déroulement d'un tour et le jeu le prend en compte.
-                        Dans le proto, le jeu est en mode "debug", ce qui signifie qu'il y a certaines informations en plus et des possibilités offertes normalement interdites (par exemple on peut poser tous les type de token sur le plateau même si aucune action ne le permet dans les règles).
+                        Cette partie est directement mise à jour en fonction du livre de règle: ajoutez un type de token et il devient disponible dans le jeu, ajoutez une nouvelle action ou changez le déroulement d'un tour et le jeu le prend en compte.
+                        <br>
+                        Dans le proto, le jeu est en mode "debug", cela signifie qu'il y a certaines informations en plus et des possibilités offertes normalement interdites. On peut par exemple poser tous les type de token sur le plateau même si aucune action ne le permet dans les règles.
                     </p>
                     <p>
-                        Dans le futur, le créateur du jeu pourra choisir les éléments à afficher ainsi que leur disposition. D'autres éléments seront également implémentés (historique des actions jouées et des événements, fenêtre de discussion entre joueurs)
+                        Dans le futur, le créateur du jeu pourra choisir les éléments à afficher ainsi que leur disposition. D'autres éléments seront également implémentés : historique des actions jouées et des événements, fenêtre de discussion entre joueurs, statistiques.
                     </p>
+                </div>
+                <div class="col-lg-7 centered">
+                     <img class="centered" src="assets/img/rulit_screen2.png"  height="400" width="600" alt="">
                 </div>
             </div>
         </div><!--/ .container -->
@@ -449,6 +442,7 @@
         <div>&nbsp;</div>
         <div class="col-md-8 col-md-offset-2 text-center">
             <a href="http://t0rtue.github.io/rulit-proto" class="btn btn-lg btn-default">Try It</a>
+            <p class="config">configuration recommandée:<br>grand écran, firefox</p>
         </div>
       </div>
     </div>
@@ -476,22 +470,6 @@
                     En attendant, vous pouvez tenter le mail.
                 </p>
                  <a href="mailto:turtlelab@free.fr?subject=[rulit]" class="btn btn-large btn-success">MAIL ME</a>
-<!--                 <form role="form" action="#" method="post" enctype="plain"> 
-                  <div class="form-group">
-                    <label for="name1">Your Name</label>
-                    <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
-                  </div>
-                  <div class="form-group">
-                    <label for="email1">Email address</label>
-                    <input type="email" name="Mail" class="form-control" id="email1" placeholder="Enter email">
-                  </div>
-                  <div class="form-group">
-                      <label>Your Text</label>
-                      <textarea class="form-control" name="Message" rows="3"></textarea>
-                  </div>
-                  <br>
-                  <button type="submit" class="btn btn-large btn-success">SUBMIT</button>
-                </form> -->
             </div>
         </div>
     </div>
