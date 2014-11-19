@@ -99,11 +99,46 @@ a:after {
 	color: white
 }
 
+#flowwrap {
+    padding-top: 50px;
+    /*padding-bottom: 50px;*/
+    border-top: #bdc3c7 solid 5px;
+}
+
+#flowwrap .pouet {
+    /*background: #34495e url('../img/head.png') no-repeat top center fixed;*/
+}
+
+#flowwrap svg {
+    width : 80px;
+    height: 80px;
+    fill : #666;
+    vertical-align: middle;
+}
+
+#flowwrap .step {
+  border: 3px solid #666;
+  border-radius: 50%;
+  display: inline-block;
+  /*font-size: 56px;*/
+  width: 120px;
+  height: 120px;
+  line-height: 110px;
+  vertical-align: middle;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+
+#flowwrap p {
+     line-height: 22px;
+}
+
 /* intro Wrap */
 
 #intro {
 	padding-top: 50px;
-	border-top: #bdc3c7 solid 5px;
+	/*border-top: #bdc3c7 solid 5px;*/
 }
 
 #features {
