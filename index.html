@@ -135,7 +135,7 @@
                 <div class="col-lg-4">
                     <!-- <img src="assets/img/intro02.png" alt=""> -->
                     <h3>En ligne et Ouvert</h3>
-                    <p>Basé sur des standards ouverts et les technologies web du moment. Rulit, ainsi que les jeux créés, sont utilisables dans un navigateur web, sans téléchargement ni installation.<br>Libre et gratuit.</p>
+                    <p>Basé sur des standards ouverts et les technologies web du moment, Rulit, ainsi que les jeux créés, sont utilisables dans un navigateur web, sans téléchargement ni installation.<br>Libre et gratuit.</p>
                 </div>
                 <div class="col-lg-4">
                     <!-- <img src="assets/img/intro03.png" alt=""> -->
@@ -172,7 +172,7 @@
                                         Tous les jeux ont des règles.<br>
                                         Ces règles décrivent le jeu et permettent, une fois assimilées, de jouer.<br>
                                         Les règles de différents jeux ont des caractéristiques communes : organisation, vocabulaire utilisé, concepts, mécanismes.<br>
-                                        Par exemple, les échecs et les dames sont des jeux où chaque joueur déplace une pièce à son tour et où l'on peut capturer une pièce adverse. Ces jeux sont différent dans la façon dont sont déplacées les pièces, dont s'effectue la prise, mais aussi par le placement de départ ainsi que les conditions de victoire.<br>
+                                        Par exemple, les échecs et les dames sont des jeux où chaque joueur déplace une pièce à son tour et où l'on peut capturer une pièce adverse. Ces jeux sont différents dans la façon dont sont déplacées les pièces, dont s'effectue la prise, mais aussi par le placement de départ ainsi que les conditions de victoire.<br>
                                     </p>
                                     <p>
                                         Le principe de rulit est de généraliser les caractéristiques communes des règles, comme le déplacement d'une pièce, et de les rendre configurables : destinations autorisées, conditions de déplacement.
@@ -215,7 +215,7 @@
                             </div>
                             <div id="collapseType" class="accordion-body collapse">
                                 <div class="accordion-inner">
-                                <p>Rulit se concentre sur les jeux au tour par tour, qui ne font appel ni à la physique ni à la 3D, ne sont pas basés sur la rapidité d'execution et ne nécessitant pas de réflexe de la part des joueurs.</p>
+                                <p>Rulit se concentre sur les jeux au tour par tour qui ne font appel ni à la physique ni à la 3D, ne sont pas basés sur la rapidité d'execution et ne nécessitent pas de réflexe de la part des joueurs.</p>
                                 <p>Voici donc une liste non-exhaustive (et non-exclusive) des types de jeux visés par Rulit:
                                     <ul>
                                         <li>Abstract games (Chess, Go)</li>
@@ -266,13 +266,13 @@
                                           <dt>Cadre</dt>
                                           <dd>Le livre de règles, entièrement éditable, permet de définir l'ensemble du jeu (objectif, matériel, actions possibles, déroulement d'un tour, placement de départ, ...) en utilisant les différents mécanismes et concepts fournis</dd>
                                           <dt>Mécanismes</dt>
-                                          <dd>Briques que l'on retrouve dans différents jeux, des plus basiques (plateau, gestions pions (placement, déplacement), action, tour de jeu, attributs, ressources) aux plus évoluées (crafting, looting, evolution, tech tree, inventaire)</dd>
+                                          <dd>Briques que l'on retrouve dans différents jeux, des plus basiques (plateau, gestions pions (placement, déplacement), action, tour de jeu, attributs, ressources) aux plus évoluées (crafting, looting, évolution, tech tree, inventaire)</dd>
                                           <dt>Concepts</dt>
                                           <dd>Différentes notions utilisables dans les règles: voisinage, chemin, intersection, bord, groupe de tuiles ou de pions (connection, pile), alignement</dd>
                                         </dl>
                                     </p>
                                     <p>
-                                        Il est intéressant de constater à quel point certains jeux de plateau arrivent, à partir d'éléments et de principes basiques, à construire des mécanismes évolués et complexes : système de marché permettant aux joueurs d'acheter et de vendre des ressources à un prix qui dépend de l'offre et de la demande (Cuba), construction d'une ville avec influence des quartiers les uns sur les autres et gestion des coût, revenu et attractivité (Suburbia), flotte de vaisseaux, amélioration de leurs caractéristiques et évolution de la recherche (Eclipse), ...
+                                        Il est intéressant de constater à quel point certains jeux de plateau arrivent, à partir d'éléments et de principes basiques, à construire des mécanismes évolués et complexes : système de marché permettant aux joueurs d'acheter et de vendre des ressources à un prix qui dépend de l'offre et de la demande (Cuba), construction d'une ville avec influence des quartiers les uns sur les autres et gestion des coûts, des revenus et de l'attractivité (Suburbia), flotte de vaisseaux, amélioration de leurs caractéristiques et évolution de la recherche (Eclipse), ...
                                     </p>
                                     <p>
                                         On remarque aussi qu'il est possible d'inventer un grand nombre de jeux et de variantes à partir d'un ensemble fini d'éléments et de mécanismes, pas forcément nombreux ou complexes. Pour s'en convaincre, voir le <a href="http://www.cameronius.com/games/shibumi/">shibumi</a> challenge.
@@ -326,7 +326,7 @@
                 <!-- <h1 class="centered">Comment ça marche?</h1> -->
                 <h1 class="centered">La recette d'un jeu</h1>
                 <p class="centered">
-                    Les différents éléments présentés sont en cours d'implémentation dans le proto.
+                    Les différents éléments présentés sont en cours d'implémentation dans le prototype.
                 </p>
                 <br>
                 <br>
@@ -340,7 +340,7 @@
                         <div class="col-lg-6">
                             <h3>Espace de jeu</h3>
                             <p>
-                                Choisir le type de grille (carré, hexa) et ses dimensions.<br>
+                                Choisir le type de grille (carrée, hexagonale) et ses dimensions.<br>
                                 La grille peut être utilisée directement comme plateau ou bien comme repère pour placer les tuiles constituant le plateau.<br>
                                 Plusieurs espace de jeu peuvent être définis pour représenter, par exemple, le plateau principal, les plateaux communs (ex: marché) ainsi que les différents plateaux spécifiques à chaque joueur (ex: inventaire, évolution).
                             </p>
@@ -374,7 +374,7 @@
                                 Une action s'applique sur un type de token précis et peut utiliser les attributs du token comme paramètres.
                                 Par exemple : "Déplacer un pion sur un intersection libre à une distance maximale égale à la vitesse du pion".
                                 <br>
-                                Les actions sont configurable en utilisant les différents concepts fournis, par exemple le voisinage du token sélectionné.
+                                Les actions sont configurables en utilisant les différents concepts fournis, par exemple le voisinage du token sélectionné.
                             </p>
                         </div>
                         <div class="col-lg-6 centered">
@@ -433,7 +433,7 @@
                         <div class="col-lg-6">
                             <h3>Variantes et réglages</h3>
                             <p>
-                                Proposer des modifications des règles de base (conditions de victoire, actions, placement initial), des alternatives selon le contexte (nombre de joueurs) et les options qui peuvent être choisies au début d'une partie comme la difficulté ou des challenges.
+                                Proposer des modifications des règles de base (conditions de victoire, actions, placement initial), des alternatives selon le contexte (nombre de joueurs) et les options qui peuvent être choisies au début d'une partie comme la difficulté ou les challenges.
                             </p>
                         </div>
                         <div class="col-lg-6 centered">
@@ -476,7 +476,7 @@
                     <p>
                         Cette partie est directement mise à jour en fonction du livre de règle: ajoutez un type de token et il devient disponible dans le jeu, ajoutez une nouvelle action ou changez le déroulement d'un tour et le jeu le prend en compte.
                         <br>
-                        Dans le proto, le jeu est en mode "debug", cela signifie qu'il y a certaines informations en plus et des possibilités offertes normalement interdites. On peut par exemple poser tous les type de token sur le plateau même si aucune action ne le permet dans les règles (6).
+                        Dans le protototype, le jeu est en mode "debug", cela signifie qu'il y a certaines informations en plus et des possibilités offertes normalement interdites. On peut par exemple poser tous les types de token sur le plateau même si aucune action ne le permet dans les règles, cela en sélectionnant un des tokens listés (6) puis une case du plateau.
                     </p>
                     <p>
                         Dans le futur, le créateur du jeu pourra choisir les éléments à afficher ainsi que leur disposition. D'autres éléments seront également implémentés : historique des actions jouées et des événements, fenêtre de discussion entre joueurs, statistiques.
@@ -493,7 +493,7 @@
     <div id="contribwrap">
       <div class="container">
         <div class="col-md-12 text-center"><h1>Contribuer</h1></div>
-        <div class="col-md-12 text-center">Merci d'être arrivé jusque là. Le proto est en cours de dévelopement et beaucoup de choses restent à faire.<br>Toutes les remarques et idées sont bienvenues, votre avis compte vraiment.</div>
+        <div class="col-md-12 text-center">Merci d'être arrivé jusque-là. Le prototype est en cours de dévelopement et beaucoup de choses restent à faire.<br>Toutes les remarques et idées sont bienvenues, votre avis compte vraiment.</div>
         <div>&nbsp;</div>
         <div class="col-md-8 col-md-offset-2 text-center">
             <a href="http://t0rtue.github.io/rulit-proto" class="btn btn-lg btn-default">Try It</a>
